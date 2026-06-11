@@ -7,7 +7,7 @@ Se o React é a biblioteca que cuida da interface (UI), o Next.js é o framework
 
 ---
 
-## Principais Pilares do Next.js
+## Principais Princípios do Next.js
 
 Para entender o poder do Next.js, vale a pena olhar para as estratégias de renderização e arquitetura que ele oferece:
 
