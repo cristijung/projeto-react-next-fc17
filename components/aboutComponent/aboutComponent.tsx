@@ -19,7 +19,7 @@ export default function UserProfile() {
   useEffect(() => {
     async function fetchUserData() {
       try {
-        // buscando dados de um perfil público --> usando o do próprio criador do Linux como exemplo
+        // buscando dados de um perfil público 
         const response = await fetch("https://api.github.com/users/cristijung");
         const data: GitHubUser = await response.json();
         
