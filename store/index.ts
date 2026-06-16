@@ -1,3 +1,4 @@
+// este é p arquivo de store
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch, useSelector, TypedUseSelectorHook } from 'react-redux';
 import todoReducer from './todoSlice';

@@ -37,5 +37,7 @@ const todoSlice = createSlice({
   },
 });
 
+// exportanto os reducers --> fn puras
+// responsáveis pela alteração do estado dos compponentes q usam estes reducers
 export const { adicionarTodo, alternarTodo, removerTodo } = todoSlice.actions;
 export default todoSlice.reducer;

@@ -1,0 +1,6 @@
+Dentro do Store podemos ter:
+
+- o arquivo store (index.ts ou store.ts)
+- a pasta store precisa armazenar no diretório raiz do projeto o STORE do Redux.
+- os Slices podem estar dentro do store OU dentro da pasta do componente que consome o Slice.
+- também é possível criar uma pasta de slices gerais do projeto e colocá-los todos lá.
